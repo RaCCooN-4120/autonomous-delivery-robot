@@ -27,17 +27,6 @@ User → Web Browser → Flask Web Server → ROS2 Goal Publisher → Navigation
 
 ---
 
-# 🧰 Technologies Used
-
-* ROS2 Humble
-* TurtleBot3
-* Gazebo Simulator
-* Navigation2 (Nav2)
-* Python
-* Flask
-* HTML / JavaScript
-
----
 
 # 📁 Project Structure
 
@@ -63,22 +52,6 @@ autonomous-delivery-robot
 
 ---
 
-# 🗺 Delivery Locations
-
-The robot can navigate to **6 different rooms**:
-
-| Room | Coordinate (x,y) |
-| ---- | ---------------- |
-| A    | (13.0, -0.15)    |
-| B    | (12.2, 2.0)      |
-| C    | (8.0, 4.3)       |
-| D    | (4.3, 2.16)      |
-| E    | (0.97, 4.0)      |
-| F    | (0.703, 0.716)   |
-
-These coordinates correspond to locations in the navigation map.
-
----
 
 # 🚀 Installation
 
@@ -121,7 +94,7 @@ ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ---
 
 ## Terminal 2 — Launch Navigation2
-
+## Dont for got run 2D pose estimate in navigation (ห้ามลืมสำคัญ)
 ```
 ros2 launch turtlebot3_navigation2 navigation2.launch.py \
 use_sim_time:=True \
@@ -143,6 +116,12 @@ http://localhost:5000
 ```
 
 ---
+
+# and we will got two local 
+local one can open on your notebook
+local two can open on your phone just copy localhost and sent to home massage and open it, it can be use
+---
+
 
 # 🌐 Web Control Interface
 
@@ -167,46 +146,12 @@ When a room is selected, the robot will navigate to that location.
 
 ---
 
-# 📸 Example Interface
-
-Autonomous Delivery Robot
-Select Room
-
-[ Room A ]
-[ Room B ]
-[ Room C ]
-[ Room D ]
-[ Room E ]
-[ Room F ]
-
----
-
-# 🎯 Project Objectives
-
-* Demonstrate **autonomous navigation with ROS2**
-* Integrate **robotics with web technologies**
-* Provide a **simple human-robot interface**
-* Study **mobile robot navigation in indoor environments**
-
----
-
-# 🔬 Future Improvements
-
-Possible improvements for this project:
-
-* Real robot deployment (TurtleBot3)
-* Obstacle detection and dynamic replanning
-* Real-time robot position display on web
-* Camera streaming
-* Database for delivery tasks
-* Multi-robot coordination
-
----
 
 # 👨‍💻 Author
 
 Rawi Thongsong
 Robotics and Mechatronics Engineering
+Contact me via instagram: cn.rwts
 
 ---
 
