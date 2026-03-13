@@ -118,8 +118,9 @@ http://localhost:5000
 ---
 
 # and we will got two local 
-local one can open on your notebook
-local two can open on your phone just copy localhost and sent to home massage and open it, it can be use
+
+**local one can open on your notebook
+**local two can open on your phone just copy localhost and sent to home massage and open it, it can be use
 ---
 
 
