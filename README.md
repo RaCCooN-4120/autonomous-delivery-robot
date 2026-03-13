@@ -120,6 +120,7 @@ http://localhost:5000
 # and we will got two local 
 
 **local one can open on your notebook
+
 **local two can open on your phone just copy localhost and sent to home massage and open it, it can be use
 ---
 
@@ -152,6 +153,7 @@ When a room is selected, the robot will navigate to that location.
 
 Rawi Thongsong
 Robotics and Mechatronics Engineering
+
 Contact me via instagram: cn.rwts
 
 ---
