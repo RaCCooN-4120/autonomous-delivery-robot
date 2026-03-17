@@ -148,3 +148,60 @@ Contact me via instagram: cn.rwts
 # License
 
 This project is for **educational and research purposes**.
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Delivery Robot</title>
+
+<style>
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #eef2f3;
+    margin-top: 60px;
+}
+button {
+    font-size: 30px;
+    padding: 20px 60px;
+    margin: 15px;
+    border-radius: 12px;
+    border: none;
+    background: #007bff;
+    color: white;
+}
+button:hover {
+    background: #0056c7;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Autonomous Delivery Robot</h1>
+<h2>Select Room</h2>
+
+<div id="buttons"></div>
+
+<script>
+
+let rooms = ["A","B","C","D","E","F"]
+
+rooms.forEach(room => {
+    let btn = document.createElement("button")
+    btn.innerText = "Room " + room
+    btn.onclick = () => goRoom(room)
+    document.getElementById("buttons").appendChild(btn)
+})
+
+function goRoom(room){
+    fetch("/go/" + room)
+        .then(res => res.text())
+        .then(msg => alert(msg))
+}
+
+</script>
+
+</body>
+</html>
