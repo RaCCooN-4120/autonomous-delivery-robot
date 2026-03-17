@@ -149,6 +149,7 @@ Contact me via instagram: cn.rwts
 
 This project is for **educational and research purposes**.
 
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -205,3 +206,4 @@ function goRoom(room){
 
 </body>
 </html>
+```
