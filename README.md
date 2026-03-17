@@ -9,14 +9,14 @@ The system is designed as an **educational robotics project** for studying auton
 ---
 
 
-# 🏗 System Architecture
+# System Architecture
 
 User → Web Browser → Flask Web Server → ROS2 Goal Publisher → Navigation2 → Robot Movement in Gazebo
 
 ---
 
 
-# 📁 Project Structure
+# Project Structure
 
 ```
 autonomous-delivery-robot
@@ -41,7 +41,7 @@ autonomous-delivery-robot
 ---
 
 
-# 🚀 Installation
+# Installation
 
 ## 1 Clone Repository
 
@@ -112,7 +112,7 @@ local one can open on your notebook
 local two can open on your phone just copy localhost and sent to home massage and open it, it can be use
 
 
-# 🌐 Web Control Interface
+# Web Control Interface
 
 Open your browser and go to
 
@@ -136,7 +136,7 @@ When a room is selected, the robot will navigate to that location.
 ---
 
 
-# 👨‍💻 Author
+# Author
 
 Rawi Thongsong
 Robotics and Mechatronics Engineering
@@ -145,6 +145,6 @@ Contact me via instagram: cn.rwts
 
 ---
 
-# 📄 License
+# License
 
 This project is for **educational and research purposes**.
