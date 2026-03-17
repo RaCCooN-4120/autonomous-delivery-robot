@@ -1,4 +1,4 @@
-# 🤖 Autonomous Delivery Robot (ROS2 + Web Control)
+# Autonomous Delivery Robot (ROS2 + Web Control)
 
 Autonomous Delivery Robot is a **ROS2-based robot navigation system** integrated with a **web interface** for controlling delivery destinations inside a simulated environment.
 
@@ -8,18 +8,6 @@ The system is designed as an **educational robotics project** for studying auton
 
 ---
 
-# 🧠 System Overview
-
-The system consists of four main components:
-
-1. **Gazebo Simulation**
-2. **ROS2 Navigation2**
-3. **Web Control Interface**
-4. **Robot Goal Publisher**
-
-The user selects a destination room from the web page, and the robot will autonomously navigate to that location using the ROS2 navigation stack.
-
----
 
 # 🏗 System Architecture
 
